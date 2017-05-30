@@ -1,26 +1,30 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/colinscally/Projects/bookmark/app.rb": [
+      "/Users/marioribeiro/Dropbox/Code/training/makers-academy/week4/bookmark_manager/app.rb": [
         1,
         null,
         1,
         null,
         1,
-        1,
+        null,
         null,
         null,
         null
       ],
-      "/Users/colinscally/Projects/bookmark/spec/features/test_viewing_links_spec.rb": [
+      "/Users/marioribeiro/Dropbox/Code/training/makers-academy/week4/bookmark_manager/spec/features/test_viewing_links_spec.rb": [
         1,
         1,
         1,
-        1,
+        0,
+        0,
+        0,
+        0,
+        null,
         null,
         null
       ]
     },
-    "timestamp": 1496158682
+    "timestamp": 1496159480
   }
 }

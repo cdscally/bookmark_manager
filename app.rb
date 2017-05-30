@@ -2,8 +2,8 @@ require 'sinatra/base'
 
 class BookmarkManager < Sinatra::Base
 
-  get '/' do
-    'Your Bookmarks'
+  get '/links' do
+    
   end
   
 end
