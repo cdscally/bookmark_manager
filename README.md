@@ -22,25 +22,6 @@ User stories/features for filtering links by a tag
   I want to filter links by tag
 
 
-Domain Model
-
-USER
-------
-Authenticate
-
-
-SELECTOR            UPDATER
------               -----
-Displays links      Add links
-Filters links       Adds tags
-
-
-DATABASE
------
-Holds links
-
-
-
 
 
 CRUD Blog
@@ -55,25 +36,26 @@ SQL is the language which is used to interact with databases. It stands for 'Str
 
 # CRUD
 CRUD stands for 'Create, Read, Update, Delete' - and refers to the set of all actions performed on a database.
-##Create
+
+## Create
   Create refers to actions which create new records in existing tables. The associated SQL command is INSERT.
   An example of a Create statement in SQL:
   ```SQL
   INSERT INTO 'students' (NAME) VALUES ('Jon Smit');
   ```
-##Read
+## Read
   Read refers to actions which read data from database tables. The associated SQL command is SELECT.
   An example of a Read statement in SQL:
   ```SQL
   SELECT * from 'students'
   ```
-##Update
+## Update
   Update refers to actions which update existing information in database tables. The associated SQL command is UPDATE.
   An example of an Update statement in SQL:
   ```SQL
   UPDATE 'students' SET name = 'Mike Smith' WHERE name = 'Jon Smit'
   ```
-##Delete
+## Delete
   Delete refers to actions which delete information from database tables. The associated SQL command is DELETE.
   An example of a Delete statement in SQL:
   ```SQL
